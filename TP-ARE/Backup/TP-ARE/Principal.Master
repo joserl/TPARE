@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="TP_ARE.Principal" %>
+
+<!DOCTYPE html >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" /> 
+<style>
+    /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+        padding: 0;
+        width:100%;
+      }
+      .navbar .nav {
+        margin: 0;
+        display: table;
+        width:100%;
+      }
+      .navbar .nav li 
+      {
+          width:25%;
+        display: table-cell;
+       
+        float: none;
+      }
+      .navbar .nav li a 
+      {
+       
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+        text-align:center;
+      }
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
+
+     
+</style>
+<title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div class="container">
+      <form id="form1" runat="server" class="form-horizontal">
+     <header>  
+     <br />               
+    </header> 
+      <nav class="navbar">     
+      <div class="navbar-inner">
+               <ul class="nav">
+                    <li runat="server" id="liInicio"><a  href="Inicio.aspx">Inicio</a></li>
+                    <li runat="server" id="liLogin"><a href="Login.aspx" >Longin</a></li>
+                    <li runat="server" id="liCargarCV"><a href="CargarCV.aspx">Cargar CV</a></li>
+                    <li runat="server" id="liContacto"><a href="Contacto.aspx">Contacto</a></li>                    
+                </ul>
+      </div>                    
+      </nav>      
+      <aside></aside>
+      <section id="content"> 
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+       <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+       
+      </section>
+      <footer class="text-center">
+      <br /><br /><br /><br /><br />
+      Copyright &copy 2013 Me chupa un huevo el copyrigth
+      </footer>
+     </form>
+     </div>
+ </body>
+</html>

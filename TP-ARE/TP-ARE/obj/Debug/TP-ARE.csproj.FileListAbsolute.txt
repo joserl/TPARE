@@ -1,0 +1,10 @@
+C:\Users\Jose\Desktop\ARE\TP-ARE\TP-ARE\TP-ARE\bin\TP-ARE.dll
+C:\Users\Jose\Desktop\ARE\TP-ARE\TP-ARE\TP-ARE\bin\TP-ARE.pdb
+C:\Users\Jose\Desktop\ARE\TP-ARE\TP-ARE\TP-ARE\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jose\Desktop\ARE\TP-ARE\TP-ARE\TP-ARE\obj\Debug\TP-ARE.dll
+C:\Users\Jose\Desktop\ARE\TP-ARE\TP-ARE\TP-ARE\obj\Debug\TP-ARE.pdb
+C:\Users\jose\Desktop\TP-ARE\TP-ARE\TP-ARE\bin\TP-ARE.dll
+C:\Users\jose\Desktop\TP-ARE\TP-ARE\TP-ARE\bin\TP-ARE.pdb
+C:\Users\jose\Desktop\TP-ARE\TP-ARE\TP-ARE\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jose\Desktop\TP-ARE\TP-ARE\TP-ARE\obj\Debug\TP-ARE.dll
+C:\Users\jose\Desktop\TP-ARE\TP-ARE\TP-ARE\obj\Debug\TP-ARE.pdb
